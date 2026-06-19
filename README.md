@@ -12,17 +12,17 @@ platform for wrapping any REST/GraphQL API as tools an LLM agent can call.
   resume from crash, drift detection over time.
 - **MCP servers** — adapter pattern over the Model Context Protocol. Wrap external APIs
   with auth, rate limiting, schema validation, async execution.
-- **Self-hosted automation** — N8N + Ollama + Docker + Tailscale for security and
-  business automation that doesn't leak data to SaaS.
-- **Production Django** — payroll (SARS-compliant) and POS systems in production
-  serving real customers.
+- **Self-hosted automation** — N8N + Ollama + local LLMs for business and security
+  automation that doesn't leak data to SaaS.
+- **Production business systems** — payroll (SARS-compliant) and POS systems in
+  production serving real operational loads.
 
 ## Selected repositories
 
 - [ai-systems-portfolio](https://github.com/Koslovski79/ai-systems-portfolio) —
   Proof-of-existence writeups for 5 systems I've built: AI agent platform,
   MCP security platform, N8N workflows, payroll, POS.
-- [prompt-orchestrator](https://github.com/Koslovski79/prompt-orchestrator) —
+- [hermes-agent-framework](https://github.com/Koslovski79/hermes-agent-framework) —
   Modular Python framework for prompt-driven multi-agent orchestration with
   persistent multi-layer memory. Domain-agnostic by design.
 - [platform-adapter-mcp](https://github.com/Koslovski79/platform-adapter-mcp) —
@@ -41,9 +41,10 @@ platform for wrapping any REST/GraphQL API as tools an LLM agent can call.
 
 ## Stack
 
-Python · Django · PostgreSQL · MCP · FastAPI · SQLite · FAISS · Ollama · Docker ·
-Tailscale · N8N · Celery · htmx · Tailwind
+Python · MCP · Ollama · OpenRouter · FAISS · SQLite · N8N · Make · Tailscale ·
+REST APIs · Prompt Engineering · LangGraph
 
 ## Contact
 
 GitHub: [@Koslovski79](https://github.com/Koslovski79)
+LinkedIn: [cameron-weyers-132a074b](https://www.linkedin.com/in/cameron-weyers-132a074b)
